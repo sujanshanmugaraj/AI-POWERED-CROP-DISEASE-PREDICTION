@@ -161,6 +161,19 @@ _A Channel Attention-Driven Optimized CNN for Efficient Early Detection of Plant
 
 📹 [Watch Output Video](https://drive.google.com/file/d/1ZEFja6Dy00ZySzIR5okJeSpYQ0QSYZbs/view?usp=sharing)
 
+
 ---
 
-Let me know if you want this converted into a `README.md` file directly or added to your existing repo!
+## 💡 Learning Outcomes
+
+Throughout this project, we gained hands-on experience and a deeper understanding in the following areas:
+
+- **Multimodal Deep Learning**: Learned to integrate image and tabular data for improved model accuracy using cross-attention mechanisms.
+- **Vision Transformers (ViT)**: Explored transformer-based architectures for computer vision tasks, replacing traditional CNNs for global feature extraction.
+- **Data Preprocessing**: Practiced image augmentation, feature scaling, and label encoding techniques for both image and numerical data.
+- **Model Fusion Techniques**: Implemented fusion of multiple modalities using PyTorch’s `nn.MultiheadAttention` for cross-modal learning.
+- **Performance Evaluation**: Analyzed models using accuracy, confusion matrix, and classification reports to assess real-world effectiveness.
+- **Streamlit App Development**: Built an intuitive web interface that supports text, voice, and image inputs for real-time disease prediction.
+- **Voice & AI Integration**: Integrated Google Gemini via LangChain for interactive question-answering and used `speech_recognition` and `pyttsx3` for voice support.
+- **Collaborative Development**: Used Git and GitHub for version control and team collaboration throughout the development process.
+
