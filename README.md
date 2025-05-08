@@ -148,6 +148,61 @@ _A Channel Attention-Driven Optimized CNN for Efficient Early Detection of Plant
 - **Follow-up:**  
   > _"What diseases can affect this?"_  
   - Gemini responds contextually, explaining secondary infections and symptoms
+ 
+  - ![image](https://github.com/user-attachments/assets/79ad0cb3-e5a1-4ceb-a5d6-ac16232358d6)
+  - The above image showcases the homepage interface of the Crop Health Assistant, a
+user-friendly web application designed to facilitate easy access to crop disease
+diagnosis. The interface allows users to select from three input methods—Text, Voice,
+and Image—to interact with the system, making it adaptable to various user preferences
+and environmental situations.
+
+● The Text option enables users to manually enter crop-related queries.
+
+● The Voice option supports verbal interactions, useful in hands-free or field
+conditions.
+
+● The Image option allows users to upload leaf images for visual disease diagnosis
+using the Vision Transformer (ViT) model.
+
+This clean, minimalistic design ensures that farmers, agricultural officers, and
+researchers can efficiently navigate the platform and access AI-driven crop health
+insights. The input box invites users to ask a question about crop health, which then
+triggers the multimodal model pipeline for prediction and recommendation.
+
+![image](https://github.com/user-attachments/assets/4926ab5d-bd8b-498e-91fc-b0ed7642a047)
+![image](https://github.com/user-attachments/assets/71d569b4-b9ae-417d-9b18-3e63e8012371)
+![image](https://github.com/user-attachments/assets/ed106966-760c-4dc4-bbc8-0d9699628af0)
+
+Upon uploading a leaf image, the system utilizes a Vision Transformer (ViT) model to
+analyze visual features and predict the crop disease. In this instance, the model
+identified the disease as:
+
+ViT Prediction: Orange_Huanglongbing (Citrus greening) with 99.06%
+confidence
+
+Following the prediction, the user posed a natural-language follow-up question:
+"What diseases can affect this?"
+
+The system responds with contextual information, explaining that:
+
+● Citrus greening (Huanglongbing or HLB) is the primary disease.
+
+● While not directly caused by other diseases, it weakens the tree.
+
+● This makes the plant more prone to secondary infections from fungi and
+pathogens.
+
+● These secondary infections can accelerate the decline of the tree’s health.
+
+![image](https://github.com/user-attachments/assets/76413d03-da3c-49ea-b358-8f40e0b07f2c)
+
+Upon uploading a leaf image (detected as affected by Citrus
+Greening/Huanglongbing (HLB)), the user interacts through sequential prompts
+using natural language. The system preserves the entire prompt history, creating a
+context-aware conversational experience.
+
+
+
 
 ---
 
