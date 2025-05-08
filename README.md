@@ -150,7 +150,9 @@ _A Channel Attention-Driven Optimized CNN for Efficient Early Detection of Plant
   - Gemini responds contextually, explaining secondary infections and symptoms
  
   - ![image](https://github.com/user-attachments/assets/79ad0cb3-e5a1-4ceb-a5d6-ac16232358d6)
-  - The above image showcases the homepage interface of the Crop Health Assistant, a
+
+
+The above image showcases the homepage interface of the Crop Health Assistant, a
 user-friendly web application designed to facilitate easy access to crop disease
 diagnosis. The interface allows users to select from three input methods—Text, Voice,
 and Image—to interact with the system, making it adaptable to various user preferences
@@ -171,7 +173,7 @@ triggers the multimodal model pipeline for prediction and recommendation.
 
 ![image](https://github.com/user-attachments/assets/4926ab5d-bd8b-498e-91fc-b0ed7642a047)
 ![image](https://github.com/user-attachments/assets/71d569b4-b9ae-417d-9b18-3e63e8012371)
-![image](https://github.com/user-attachments/assets/ed106966-760c-4dc4-bbc8-0d9699628af0)
+![image](https://github.com/user-attachments/assets/46e9aa39-491b-433b-96aa-2a5762d3f906)
 
 Upon uploading a leaf image, the system utilizes a Vision Transformer (ViT) model to
 analyze visual features and predict the crop disease. In this instance, the model
